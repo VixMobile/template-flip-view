@@ -7,5 +7,6 @@
 "visible" : "true",
 "sortWeight":"0.7",
 "keywords":[""],
-"highlights" : [""]
+"highlights" : [""],
+"relationship":"flip-view"
 }
