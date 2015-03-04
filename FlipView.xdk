@@ -2,28 +2,21 @@
   "project": {
     "projectSettingsVersion": "1.2",
     "creationData": {
+      "type": "Demo",
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
-      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2015-ww07/template-blank/sample.zip",
+      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/template-flip-view/sample.zip",
       "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1422522033610,
-      "creationDate": 1422514108698
+      "lastModifiedDate": 1423701822333,
+      "creationDate": 1423699877301
     },
     "sourceDirectory": "www",
+    "cordovaPluginsDirectory": "plugins",
     "startFile": "index.html",
     "projectFiles": {},
     "projectDirectories": {},
     "libraries": [],
+    "cordovaPlugins": [],
     "serviceMethods": [],
-    "cordovaPluginsDirectory": "plugins",
-    "cordovaPlugins": [
-      {
-        "id": "org.apache.cordova.splashscreen",
-        "version": "",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {}
-      }
-    ],
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
@@ -32,28 +25,21 @@
         "preferences_": {
           "android-minSdkVersion": "10",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Orientation": "portrait"
+          "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
-        "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps.",
-        "appAuthor_": "",
-        "appVersionCode_": "1"
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "?"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -62,12 +48,11 @@
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Orientation": "portrait"
+          "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -79,24 +64,21 @@
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
-        "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps.",
-        "appAuthor_": "",
-        "appVersionCode_": "1"
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "?"
       },
       "iOS": {
         "platform_": "ios",
         "runtime_": "W3C on Cordova",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "6",
-          "ios-configuration": "adhoc",
-          "Orientation": "portrait"
+          "ios-target": "5",
+          "ios-configuration": "adhoc"
         },
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -108,22 +90,16 @@
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
-        "cordovaCLIVersion_": "?",
-        "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps."
+        "appVersion_": "0.0.1"
       },
       "Windows8": {
         "platform_": "windows8",
         "runtime_": "W3C on Cordova",
         "name_": "Windows8",
-        "preferences_": {
-          "windows-publisher-display-name": "",
-          "windows-publisher-id": "",
-          "Orientation": "portrait"
-        },
+        "preferences_": {},
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -135,9 +111,7 @@
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
-        "cordovaCLIVersion_": "?",
-        "appVersion_": "0.0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps."
+        "appVersion_": "0.0.0.1"
       },
       "WebApp": {
         "platform_": "webapp",
@@ -145,8 +119,8 @@
         "name_": "WebApp",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -156,8 +130,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps."
+        "appVersion_": "0.0.1"
       },
       "Firefox": {
         "platform_": "firefoxos",
@@ -165,8 +138,8 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -176,8 +149,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps."
+        "appVersion_": "0.0.1"
       },
       "Chrome": {
         "platform_": "chromeos",
@@ -185,8 +157,8 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -196,8 +168,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps."
+        "appVersion_": "0.0.1"
       },
       "Facebook": {
         "platform_": "facebook",
@@ -205,8 +176,8 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "blank-easeljs-game-webapp",
-        "appID_": "xdk.intel.blank.easeljs.game.template",
+        "appName_": "FlipView",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -216,17 +187,11 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appDescription_": "Use this template to start creating EaselJS based mobile game web apps."
+        "appVersion_": "0.0.1"
       }
     },
     "gameAssetDirectory": "asset",
-    "gameMetadata": {
-      "gameEngineName": "easeljs",
-      "gameEngineVersion": "0.7"
-    },
-    "projectTags": [
-      "XDK-game-app"
-    ]
+    "gameMetadata": {},
+    "projectTags": []
   }
 }
