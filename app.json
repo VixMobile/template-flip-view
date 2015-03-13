@@ -1,13 +1,20 @@
 {
-"reponame":"template-flip-view",
-"title":"Flip View App",
-"tooltip":"Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
-"description":"Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
-"articleUrl":"http://software.intel.com/en-us/html5/articles/templates-to-get-started-with-html5-mobile-app-development",
-"visible" : "true",
-"sortWeight":"0.7",
-"keywords":[""],
-"highlights" : [""],
-"relationship":"flip view",
-"projectTypeName": "com.intel.xdk.projecttype.webapp"
+   "keywords" : [
+      ""
+   ],
+   "description" : "Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
+   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "appName" : null,
+   "appPreview" : null,
+   "highlights" : [
+      ""
+   ],
+   "relationship" : "flip view",
+   "articleUrl" : "http://software.intel.com/en-us/html5/articles/templates-to-get-started-with-html5-mobile-app-development",
+   "title" : "Flip View App",
+   "relName" : null,
+   "repoName" : "template-flip-view",
+   "tooltip" : "Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
+   "visible" : "true",
+   "sortWeight" : "0.7"
 }
