@@ -3,7 +3,7 @@
 "title":"Flip View App",
 "tooltip":"Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
 "description":"Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
-"articleUrl":"http://software.intel.com/en-us/html5/articles/templates-to-get-started-with-html5-mobile-app-development",
+"articleUrl":"https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
 "visible" : "true",
 "sortWeight":"0.7",
 "keywords":[""],
