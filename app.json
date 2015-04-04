@@ -1,13 +1,21 @@
 {
-"reponame":"template-flip-view",
-"title":"Flip View App",
-"tooltip":"Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
-"description":"Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
-"articleUrl":"https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
-"visible" : "true",
-"sortWeight":"0.7",
-"keywords":[""],
-"highlights" : [""],
-"relationship":"flip view",
-"projectTypeName": "com.intel.xdk.projecttype.webapp"
+   "appName" : null,
+   "keywords" : [
+      ""
+   ],
+   "visible" : true,
+   "repoName" : "template-flip-view",
+   "tooltip" : "Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
+   "relName" : null,
+   "appPreview" : false,
+   "title" : "Flip View App",
+   "description" : "Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
+   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "articleUrl" : "https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
+   "sortWeight" : "0.7",
+   "highlights" : [
+      ""
+   ],
+   "mobile" : false,
+   "relationship" : "flip view"
 }
