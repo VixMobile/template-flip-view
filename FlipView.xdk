@@ -30,7 +30,11 @@
         "isActive_": true,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
-        "appAccess_": [],
+        "appAccess_": [
+		  {
+		    "origin": "*"
+		  }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
