@@ -10,7 +10,7 @@
    "appPreview" : false,
    "title" : "Flip View App",
    "description" : "Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
-   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
    "articleUrl" : "https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
    "sortWeight" : "0.7",
    "highlights" : [

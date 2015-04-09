@@ -3,10 +3,10 @@
     "projectSettingsVersion": "1.2",
     "creationData": {
       "type": "Demo",
-      "projectTypeName": "com.intel.xdk.projecttype.webapp",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/template-flip-view/sample.zip",
       "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1423701822333,
+      "lastModifiedDate": 1428619111649,
       "creationDate": 1423699877301
     },
     "sourceDirectory": "www",
@@ -15,12 +15,32 @@
     "projectFiles": {},
     "projectDirectories": {},
     "libraries": [],
-    "cordovaPlugins": [],
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.device",
+        "version": "?",
+        "selectedState": "Excluded",
+        "data": {},
+        "paramvals": {},
+        "checksum": "eeff758f1c3faf3617ef567fbd7bd93ac3b48edb39e0e5d9a07a7f3f158d4c13",
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "?",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      }
+    ],
     "serviceMethods": [],
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "10",
@@ -31,9 +51,9 @@
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
         "appAccess_": [
-		  {
-		    "origin": "*"
-		  }
+          {
+            "origin": "*"
+          }
         ],
         "icons_": [],
         "splashes_": [],
@@ -47,7 +67,7 @@
       },
       "Android-Crosswalk": {
         "platform_": "android",
-        "runtime_": "W3C on Crosswalk",
+        "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
           "android-minSdkVersion": "14",
@@ -74,7 +94,7 @@
       },
       "iOS": {
         "platform_": "ios",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
           "ios-target": "5",
@@ -98,7 +118,7 @@
       },
       "Windows8": {
         "platform_": "windows8",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
@@ -122,7 +142,7 @@
         "runtime_": "W3C",
         "name_": "WebApp",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
         "appAccess_": [
@@ -141,7 +161,7 @@
         "runtime_": "W3C on Firefox OS",
         "name_": "Firefox",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
         "appAccess_": [
@@ -160,7 +180,7 @@
         "runtime_": "W3C on Chrome OS",
         "name_": "Chrome",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
         "appAccess_": [
@@ -179,7 +199,7 @@
         "runtime_": "W3C on Facebook",
         "name_": "Facebook",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
         "appAccess_": [
