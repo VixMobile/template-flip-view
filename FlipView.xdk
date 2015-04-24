@@ -30,11 +30,7 @@
          "isActive_": true,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
-        "appAccess_": [
-		  {
-		    "origin": "*"
-		  }
-        ],
+        "appAccess_": [{ "origin": "*"}],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -97,7 +93,7 @@
         "iosProvs_": [],
          "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1"
-        "appAuthor_": "Intel XDK"
+         "appAuthor_": "Intel XDK"
       },
       "Windows8": {
         "platform_": "windows8",
@@ -138,7 +134,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appAuthor_": "Intel XDK",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Firefox": {
@@ -158,7 +154,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appAuthor_": "Intel XDK",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Chrome": {
@@ -178,7 +174,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appAuthor_": "Intel XDK",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Facebook": {
@@ -198,7 +194,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appAuthor_": "Intel XDK",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       }
     },
