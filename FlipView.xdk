@@ -5,7 +5,7 @@
       "type": "Demo",
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/template-flip-view/sample.zip",
-      "projectGuid": "ec4675b0-2895-4b92-afdb-5811fd0d8b3d",
+      "projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1423701822333,
       "creationDate": 1423699877301
     },
@@ -30,7 +30,7 @@
         "isActive_": true,
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
-        "appAccess_": [
+               "appAccess_": [
           {
             "origin": "*"
           }
@@ -42,8 +42,8 @@
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
         "appAuthor_": "Intel XDK",
+        "appVersionCode_": "1",
         "crosswalkVersion_": "?"
       },
       "Android-Crosswalk": {
@@ -70,8 +70,8 @@
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
         "appAuthor_": "Intel XDK",
+        "appVersionCode_": "1",
         "crosswalkVersion_": "?"
       },
       "iOS": {
@@ -79,7 +79,7 @@
         "runtime_": "W3C on Cordova",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "5",
+          "ios-target": "6",
           "ios-configuration": "adhoc"
         },
         "isActive_": true,
@@ -117,8 +117,8 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "appAuthor_": "Intel XDK",
         "cordovaCLIVersion_": "?",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.0.1"
       },
       "WebApp": {
@@ -157,8 +157,8 @@
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
-        "appAuthor_": "Intel XDK",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Chrome": {
@@ -167,6 +167,7 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": true,
+        "appAuthor_": "Intel XDK",
         "appName_": "FlipView",
         "appID_": "not.yet.specified",
         "appAccess_": [
@@ -178,7 +179,6 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Facebook": {
