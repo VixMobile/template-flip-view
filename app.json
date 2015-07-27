@@ -5,7 +5,7 @@
    ],
    "section" : "templates",
    "group" : "other",
-   "visible" : true,
+   "visible" : false,
    "repoName" : "template-flip-view",
    "tooltip" : "Use this template to provide a main view and a settings view. For example, create a Maps app, Weather app or Clock app.",
    "relName" : null,
