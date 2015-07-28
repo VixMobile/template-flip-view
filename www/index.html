@@ -1,78 +1,78 @@
 <!DOCTYPE html>
+<!--HTML5 doctype-->
 <html>
+
 <head>
-    <title>Flip View App template</title>
-<!--
-    This template can be used for simple utility application that has a main view and a settings view, for applications like Maps app, Weather App or Clock app.
--->  
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0;" />
-    
-    <link rel="stylesheet" type="text/css" href="appframework/af.ui.css" />
-    <link rel="stylesheet" type="text/css" href="appframework/icons.css" />
-    <script type="text/javascript" charset="utf-8" src="appframework/appframework.ui.min.js"></script>
+
+    <title>Flip View Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="../www/appframework/build/icons.css" />
+    <link rel="stylesheet" type="text/css" href="../www/appframework/build/af.ui.css" />
 
 
-    <!-- phantom library, needed for Cordova api calls -->
-    <script src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../www/appframework/build/appframework.ui.js"></script>
 
-    
-    <script>
-        var onDeviceReady=function(){                             // called when Cordova is ready
-           if( window.Cordova && navigator.splashscreen ) {     // Cordova API detected
-               $.ui.launch(); 
-               navigator.splashscreen.hide() ;                 // hide splash screen
-            }
-        } ;
-        document.addEventListener("deviceready", onDeviceReady, false) ;
-    </script>
-    
-    <script>   
-        $.ui.autoLaunch = false; 
-        $.ui.animateHeaders = false;
-                
-        $(document).ready(function(){
-            $.ui.launch();
-        });
-    </script>    
 
-    <style>
-body, #afui {background-color:#000}  
-#afui #settingsList.list li {padding: 10px}        
-    </style>    
+
 </head>
-<body> 
-<div id="afui">
-    <div id="content" style="">
-        
-        <!-- main panel -->
-        <div class="panel" title="Title" id="mainpage"  data-footer="none" selected="true">
-            <header>
-                <h1>Title</h1>
-                <a href="#backpage" data-transition="flip" class="button icon settings" style="float:right"></a>
-            </header>
-            <p>This is a Flip View App template main page.</p>
-        </div>
-        
-        <!-- back panel -->
-        <div class="panel" title="Settings" id="backpage"  data-footer="none">
-            <header>
-                <h1>Settings</h1>
-                <a onclick="$.ui.goBack();" data-transition="flip" class="button icon close" style="float:right"></a>
-            </header>
-            <p>This is template for settings</p>
-            <ul class="list inset" id="settingsList">
-                <li>
-                    <label>Setting One</label>
-                    <input id="toggle1" type="checkbox" name="toggle1" value="1" class="toggle" checked><label style="left:70%" for="toggle1" data-on="On" data-off="Off"><span></span></label>
-                </li>
-                <li>
-                    <label>Setting Two</label>
-                    <input id="toggle2" type="checkbox" name="toggle2" value="0" class="toggle"><label style="left:70%" for="toggle2" data-on="On" data-off="Off"><span></span></label>
-                </li>
-            </ul> 
-        </div>
-        
+
+<body>
+
+    <div id="splashscreen" class='ui-loader heavy'>
+        App Framework - Flip View
+        <br>
+        <br>
+        <span class='ui-icon ui-icon-loading spin'></span>
+        <h1>Starting app</h1>
     </div>
-</div>
+
+    <div class="view" id="mainview">
+
+
+        <div class="pages">
+            <!-- main panel -->
+            <div class="panel" title="Title" id="mainpage" data-footer="none" selected="true">
+                <header>
+                    <h1>Title</h1>
+                    <a href="#backpage" data-transition="flip" class="button icon settings" style="float:right"></a>
+                </header>
+                <p>This is a Flip View App template main page.</p>
+            </div>
+
+            <!-- back panel -->
+            <div class="panel" title="Settings" id="backpage" data-footer="none">
+                <header>
+                    <h1>Settings</h1>
+                    <a onclick="$.afui.goBack();" data-transition="flip" class="button icon close" style="float:right"></a>
+                </header>
+                <p>This is template for settings</p>
+                <ul class="list inset" id="settingsList">
+                    <li>
+                        <label>Setting One</label>
+                        <input id="toggle1" type="checkbox" name="toggle1" value="1" class="toggle" checked>
+                        <label style="left:70%" for="toggle1" data-on="On" data-off="Off"><span></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>Setting Two</label>
+                        <input id="toggle2" type="checkbox" name="toggle2" value="0" class="toggle">
+                        <label style="left:70%" for="toggle2" data-on="On" data-off="Off"><span></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
 </body>
-</html>    
+
+</html>
