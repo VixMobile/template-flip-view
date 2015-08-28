@@ -10,15 +10,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" type="text/css" href="../www/appframework/build/icons.css" />
-    <link rel="stylesheet" type="text/css" href="../www/appframework/build/af.ui.css" />
 
+    <link rel="stylesheet" type="text/css" href="lib/appframework/icons.css" />
+    <link rel="stylesheet" type="text/css" href="lib/appframework/af.ui.css" />
 
-    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="../www/appframework/build/appframework.ui.js"></script>
-
-
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/fastclick.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>
 
 </head>
 
@@ -33,24 +31,30 @@
     </div>
 
     <div class="view" id="mainview">
-
+        <header>
+            <h1>Flip View</h1>
+            <a href="#backpage" data-transition="flip" class="button icon settings" style="float:right"></a>
+        </header>
 
         <div class="pages">
             <!-- main panel -->
             <div class="panel" title="Title" id="mainpage" data-footer="none" selected="true">
-                <header>
-                    <h1>Title</h1>
-                    <a href="#backpage" data-transition="flip" class="button icon settings" style="float:right"></a>
-                </header>
+                
                 <p>This is a Flip View App template main page.</p>
             </div>
+        </div>
+    </div>    
 
+    <div class="view" id="backview">
+        <header>
+            <h1>Settings</h1>
+            <a href="#mainpage" data-transition="flip" class="button icon close" style="float:right"></a>
+        </header>
+
+        <div class="pages">
+    
             <!-- back panel -->
             <div class="panel" title="Settings" id="backpage" data-footer="none">
-                <header>
-                    <h1>Settings</h1>
-                    <a onclick="$.afui.goBack();" data-transition="flip" class="button icon close" style="float:right"></a>
-                </header>
                 <p>This is template for settings</p>
                 <ul class="list inset" id="settingsList">
                     <li>
@@ -72,7 +76,5 @@
 
     </div>
 
-
 </body>
-
 </html>
